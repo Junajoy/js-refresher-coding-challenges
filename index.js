@@ -9,7 +9,7 @@ function greet(name) {
     return number % 2 === 0;
   }
   
-  // 3. Adding Up Array Numbers
+  // 3. Add
   function sumArray(numbers) {
     let sum = 0;
     for (let num of numbers) {
@@ -73,7 +73,6 @@ function greet(name) {
     return [arr[0], arr[arr.length - 1]];
   }
   
-  // Export all functions for testing
   module.exports = {
     greet,
     isEven,

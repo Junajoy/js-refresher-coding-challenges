@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Hey there! This document is packed with a bunch of coding challenges designed to really help you get a solid grip on JavaScript. We've got everything from the basics to some trickier stuff. For each challenge, you'll find a clear description, some examples of what goes in and what comes out, and a heads-up about any tricky situations you might run into.",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "start": " node index.js",
-    "test": "node index.test.js"
+    "start": " node app.js"
+    
   },
   "repository": {
     "type": "git",
